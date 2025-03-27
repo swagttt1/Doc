@@ -1,5 +1,5 @@
 # PhastCons_Doc
-This repository contains text of how to use PhastCons 
+
 
 
 PhastCons 是一个用于在多序列比对中识别进化保守元件的程序，基于称为系统发育隐马尔可夫模型（phylo-HMM）的序列进化统计模型。如果您熟悉广受欢迎的 VISTA 程序（Mayor 等人，2000），该程序通过沿序列长度绘制两条比对序列的百分比相似性来可视化，那么可以将 PhastCons 看作是下一代的 VISTA。PhastCons 与 VISTA 的区别包括：PhastCons 处理的是 n 个物种而非两个；它考虑了这些物种之间的系统发育关系；并且它不再简单地用百分比相似性来衡量相似性或差异性，而是使用核苷酸替代的统计模型，允许一个位点发生多次替代，并且不同碱基对之间的替代速率可以不相等（例如，转换的频率高于颠换）。
